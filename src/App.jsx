@@ -1,8 +1,13 @@
+import { Header } from './components/Header'
 import { Post } from './Post'
+
+import './styles.css'
 
 export function App() {
   return (
     <div>
+      <Header />
+
       <Post
         author='Pedro Carvalho'
         content='“Nutra sua mente com grandes pensamentos, pois você nunca irá mais alto do que o que você pensa.”'
