@@ -27,10 +27,10 @@ export function Post() {
           da Rocketseat. O nome do projeto é DoctorCare 🚀
         </p>
         <p>
-          👉 <a href='#'>jane.design/doctorcare</a>
+          👉&nbsp;<a href='#'>jane.design/doctorcare</a>
         </p>
         <p>
-          <a href='#'>#novoprojeto #nlw #rocketseat</a>
+          <a href='#'>#novoprojeto</a> <a href='#'>#nlw </a> <a href='#'>#rocketseat</a>
         </p>
       </div>
     </article>
