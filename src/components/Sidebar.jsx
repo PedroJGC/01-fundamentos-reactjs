@@ -3,6 +3,8 @@ import { PencilLine } from 'phosphor-react'
 
 import styles from './Sidebar.module.css'
 
+import { Avatar } from './Avatar'
+
 export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
@@ -12,12 +14,9 @@ export function Sidebar() {
       />
 
       <div className={styles.profile}>
-        <img
-          className={styles.avatar}
-          src='https://media.licdn.com/dms/image/v2/C4E03AQEgjZifrHUBfQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1617150701815?e=1750291200&v=beta&t=0r07TFh3RTLfrOR0IwMovsLBkCdWaVh-baLhOK7i_kk'
-        />
+        <Avatar src='https://github.com/maykbrito.png' />
 
-        <strong>Pedro Carvalho</strong>
+        <strong>Mayk Brito</strong>
         <span>Web developer</span>
       </div>
 
