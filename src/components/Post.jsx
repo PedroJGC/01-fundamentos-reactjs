@@ -1,8 +1,11 @@
-import styles from './Post.module.css'
 import { Comment } from './Comment'
 import { Avatar } from './Avatar'
 
-export function Post() {
+import styles from './Post.module.css'
+
+export function Post(props) {
+  console.log(props)
+
   return (
     <article className={styles.post}>
       <header>
