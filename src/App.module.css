@@ -8,3 +8,20 @@
   gap: 2rem;
   align-items: flex-start;
 }
+
+@media (max-width: 768px) {
+  /*
+    Para calcular o percentual para aplicar no font-size.
+    Se 16 -> 100% 
+    Então para aplicar 14px em percentual:
+    14 * 100 / 16 = 87.5%
+  */
+
+  html {
+    font-size: 87.5%; /* 14px */
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
